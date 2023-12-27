@@ -8,6 +8,9 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#Gapps
+$(call inherit-product, vendor/gms/gms_full.mk
+
 # Inherit device configuration
 $(call inherit-product, device/google/lynx/aosp_lynx.mk)
 $(call inherit-product, device/google/gs201/lineage_common.mk)
